@@ -1,0 +1,25 @@
+{
+  "name": "promise-call",
+  "version": "1.0.0",
+  "description": "call node style function as promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssnau/promise-call.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "ssnau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssnau/promise-call/issues"
+  },
+  "homepage": "https://github.com/ssnau/promise-call",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
