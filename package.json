@@ -1,6 +1,6 @@
 {
   "name": "promise-call",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "call node style function as promise",
   "main": "index.js",
   "scripts": {

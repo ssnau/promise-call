@@ -1,9 +1,9 @@
 var pcall = require('../');
 var assert = require('assert');
 
-function asyncGet(object, callback) {
+function asyncGet(str, callback) {
     setTimeout(function() {
-       callback(null, object); 
+       callback(null, str.toUpperCase()); 
     }, 100);
 }
 function asyncError(callback) {
@@ -24,7 +24,7 @@ describe('simple', function(){
     it('promise call with success', function(done) {
         pcall(asyncGet, 'jack')
             .then(function(ret){
-                assert.equal(ret, 'jack');
+                assert.equal(ret, 'JACK');
                 done();
             });
     });
